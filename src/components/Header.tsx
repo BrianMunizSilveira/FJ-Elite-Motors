@@ -11,7 +11,7 @@ export default function Header() {
     <header className="bg-primary border-b border-gray-800 sticky top-0 z-50">
       <div className="bg-accent text-white py-1 px-4 text-xs md:text-sm flex justify-between items-center max-w-7xl mx-auto">
         <div className="flex items-center gap-4">
-          <span className="flex items-center gap-1 font-medium"><Phone size={14} /> (11) 99999-9999</span>
+          <span className="flex items-center gap-1 font-medium"><Phone size={14} /> (55) 99999-9999</span>
         </div>
         <div className="flex items-center gap-4">
           <a href="#" className="hover:text-gold transition-colors"><Instagram size={16} /></a>
