@@ -8,9 +8,10 @@ import VehicleGallery from "@/components/VehicleGallery";
 // Force dynamic rendering for this route to ensure fresh data
 export const dynamic = "force-dynamic";
 
-export default async function VehicleDetailPage({ params }: { params: { id: string } }) {
+export default async function VehicleDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const vehicle = await prisma.vehicle.findUnique({
-    where: { id: params.id },
+    where: { id },
     include: { images: true },
   });
 

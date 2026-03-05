@@ -1,0 +1,227 @@
+[00:00:03.550] Server  LOG     ✓ Ready in 2.5s
+[00:00:09.377] Server  LOG     ○ Compiling / ...
+[00:00:11.159] Server  ERROR   ⨯ ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:13.237] Server  WARN    ⚠ Cross origin request detected from 192.168.15.6 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:13.278] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:13.545] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:14.548] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:27.094] Server  ERROR   ⨯ ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:27.280] Server  LOG     ✓ Finished writing to filesystem cache in 12.0s
+[00:00:27.333] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:27.556] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:27.557] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:27.646] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:27.646] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:56.798] Server  ERROR   ⨯ ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:57.013] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:57.361] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:57.361] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:57.549] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:57.549] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:57.549] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:57.549] Browser ERROR   ./src/app/layout.tsx:6:1
+Module not found: Can't resolve '@vercel/analytics/next'
+  4 | import Header from "@/components/Header";
+  5 | import Footer from "@/components/Footer";
+> 6 | import { Analytics } from "@vercel/analytics/next";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const inter = Inter({ subsets: ["latin"] });
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found

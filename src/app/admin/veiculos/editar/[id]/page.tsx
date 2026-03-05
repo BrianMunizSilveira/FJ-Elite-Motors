@@ -2,9 +2,10 @@ import VehicleForm from "@/components/VehicleForm";
 import { prisma } from "@/lib/prisma";
 import { notFound } from "next/navigation";
 
-export default async function EditVehiclePage({ params }: { params: { id: string } }) {
+export default async function EditVehiclePage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const vehicle = await prisma.vehicle.findUnique({
-    where: { id: params.id },
+    where: { id },
     include: {
       images: true,
     },
