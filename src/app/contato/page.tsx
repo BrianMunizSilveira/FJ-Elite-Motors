@@ -87,7 +87,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-white font-bold text-sm tracking-widest uppercase mb-1">Endereço</h4>
-                    <p className="text-gray-400 text-sm">Av. Paulista, 1000 - Bela Vista, São Paulo - SP</p>
+                    <p className="text-gray-400 text-sm">1369 R. Serafim Valandro Santa Maria, Rio Grande do Sul - RS</p>
                   </div>
                 </div>
 
@@ -97,7 +97,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-white font-bold text-sm tracking-widest uppercase mb-1">Telefone / WhatsApp</h4>
-                    <p className="text-gray-400 text-sm">(11) 99999-9999</p>
+                    <p className="text-gray-400 text-sm">(55) 99999-9999</p>
                   </div>
                 </div>
 
@@ -132,13 +132,19 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="h-full min-h-[300px] bg-gray-900 rounded-2xl border border-gray-800 relative overflow-hidden group">
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-700 font-black italic text-2xl group-hover:text-gold transition-colors">
-                <MapPin size={48} className="mb-4 animate-bounce" />
-                GOOGLE MAPS
-              </div>
-              <div className="absolute inset-0 bg-gold/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            {/* Google Map */}
+            <div className="h-full min-h-[300px] bg-gray-900 rounded-2xl border border-gray-800 relative overflow-hidden">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!4v1772707639652!6m8!1m7!1sxHz02aQVR25vUeESjDMWGw!2m2!1d-29.69212636754972!2d-53.80960562751455!3f296.7048851903331!4f-0.11350511862696067!5f0.4000000000000002" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0, minHeight: '300px' }} 
+                allowFullScreen={true} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Localização FJ Elite Motors"
+                className="absolute inset-0 w-full h-full filter grayscale hover:grayscale-0 transition-all duration-500"
+              ></iframe>
             </div>
           </div>
         </div>

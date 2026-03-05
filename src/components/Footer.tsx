@@ -44,11 +44,11 @@ export default function Footer() {
           <ul className="flex flex-col gap-4 text-sm">
             <li className="flex items-start gap-3">
               <MapPin className="text-gold mt-1 shrink-0" size={18} />
-              <span>Av. Paulista, 1000 - Bela Vista, São Paulo - SP</span>
+              <span>1369 R. Serafim Valandro Santa Maria, Rio Grande do Sul - RS</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="text-gold shrink-0" size={18} />
-              <span>(11) 99999-9999</span>
+              <span>(55) 99999-9999</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail className="text-gold shrink-0" size={18} />
@@ -77,7 +77,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 mt-16 pt-8 border-t border-gray-800 text-center text-xs">
-        <p>&copy; {new Date().getFullYear()} FJ ELITE MOTORS. Todos os direitos reservados. | Desenvolvido por Aatrox, o Destruidor de Mundos.</p>
+        <p>&copy; {new Date().getFullYear()} FJ ELITE MOTORS. Todos os direitos reservados. | Desenvolvido por João Vitor Machado Gomes e Filipe Oliveira dos Santos em colaboração com Brian Muniz Silveira</p>  
       </div>
     </footer>
   );
