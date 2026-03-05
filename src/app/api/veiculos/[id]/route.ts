@@ -10,6 +10,11 @@ export async function GET(
 ) {
   try {
     const { id } = await params;
+    
+    if (!id) {
+      return NextResponse.json({ error: "ID do veículo inválido" }, { status: 400 });
+    }
+
     const vehicle = await prisma.vehicle.findUnique({
       where: { id },
       include: { images: true },
