@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/page": "/admin",
+  "/admin/veiculos/editar/[id]/page": "/admin/veiculos/editar/[id]",
+  "/admin/veiculos/novo/page": "/admin/veiculos/novo",
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
+  "/api/seed/route": "/api/seed",
+  "/api/upload/route": "/api/upload",
+  "/api/veiculos/[id]/route": "/api/veiculos/[id]",
+  "/api/veiculos/route": "/api/veiculos",
+  "/auth/login/page": "/auth/login",
+  "/contato/page": "/contato",
+  "/page": "/",
+  "/quem-somos/page": "/quem-somos",
+  "/veiculos/[id]/page": "/veiculos/[id]",
+  "/veiculos/page": "/veiculos"
+}

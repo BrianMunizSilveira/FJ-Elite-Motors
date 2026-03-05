@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/quem-somos/layout,_N_T_/quem-somos/page,_N_T_/quem-somos"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/quem-somos/__PAGE__",
+    "/quem-somos",
+    "/_index",
+    "/_head"
+  ]
+}

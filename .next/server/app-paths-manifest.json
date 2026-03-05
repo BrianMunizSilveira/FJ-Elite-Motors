@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/veiculos/editar/[id]/page": "app/admin/veiculos/editar/[id]/page.js",
+  "/admin/veiculos/novo/page": "app/admin/veiculos/novo/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/seed/route": "app/api/seed/route.js",
+  "/api/upload/route": "app/api/upload/route.js",
+  "/api/veiculos/[id]/route": "app/api/veiculos/[id]/route.js",
+  "/api/veiculos/route": "app/api/veiculos/route.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/contato/page": "app/contato/page.js",
+  "/page": "app/page.js",
+  "/quem-somos/page": "app/quem-somos/page.js",
+  "/veiculos/[id]/page": "app/veiculos/[id]/page.js",
+  "/veiculos/page": "app/veiculos/page.js"
+}
